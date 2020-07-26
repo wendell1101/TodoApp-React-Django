@@ -1,0 +1,58 @@
+body{
+  background-color: #251f44;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.header{
+  /* background:#438a5e; */
+  background-color: #251f44!important ;
+}
+footer{
+  margin-top:5px;
+  width:100%;
+
+  bottom:0;
+  display:flex;
+  justify-content: center;
+}
+.todoContainer{
+  margin-top:40px;
+  background:#3b6978;
+  padding: 1rem;
+}
+#title{
+  width:85%;
+  height:50px;
+}
+.form{
+  display: flex;
+}
+.btn{
+  min-width: 70px;
+  height:40px;
+}
+.btn .btn-danger{
+  margin-right:10px;
+}
+.btn-success{
+  background:#438a5e!important;
+  color:#fff;
+  min-height:50px;
+  margin-left:15px;
+}
+.btn-complete{
+  background:#838383;
+  color: #fff;
+}
+.list{
+  background:#84a9ac;
+  cursor: pointer;
+}
+.list p{
+  font-size: 1.3rem;
+  color: #221f3b;
+}
+.markComplete {
+  text-decoration: line-through;
+
+}
